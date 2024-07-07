@@ -43,7 +43,7 @@ Product Backlog URL
 
 https://trello.com/b/MjpftIGq/oua-bootcamp
 
-Sprint 1
+SPRINT 1
 
 •	Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
 
