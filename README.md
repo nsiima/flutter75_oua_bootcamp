@@ -56,11 +56,14 @@ Sprint 1
 
 <img width="508" alt="image" src="https://github.com/nsiima/flutter75_oua_bootcamp/assets/118462355/0a30d80d-5aa0-474f-9dbd-045c47b20372">
 
+Ürün Durumu: 
+
+![WhatsApp Image 2024-07-04 at 10 43 38](https://github.com/nsiima/flutter75_oua_bootcamp/assets/118462355/08fe9a45-8b36-4c00-bb75-8c51e073e8e8)
+
  
 Sprint Review
 
 Alınan kararlar:
-
 
 •	Uygulama ana sayfası tamamlanmıştır.
 
