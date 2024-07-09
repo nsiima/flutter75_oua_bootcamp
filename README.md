@@ -45,11 +45,21 @@ https://trello.com/b/MjpftIGq/oua-bootcamp
 
 SPRINT 1
 
+Sprint Notları
+
+• Proje yönetimi için Trello kullanılmasına karar verilmiştir.
+
+• UI tasarımları için Figma kullanılmasına karar verilmiştir.
+
+• Backend için Firebase kullanılmasına karar verilmiştir.
+
+• Giriş sistemi için özel bi bilgi istenmemektedir. 
+
 •	Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
 
 •	Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 400 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
-•	Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır
+ Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır
  <img width="237" alt="image" src="https://github.com/nsiima/flutter75_oua_bootcamp/assets/118462355/0d574d82-b1c1-42bd-bd73-3f0823e6d0d4">
 
 •	Sprint board update 
