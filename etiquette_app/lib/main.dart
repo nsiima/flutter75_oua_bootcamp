@@ -1,7 +1,12 @@
 // ignore_for_file: use_key_in_widget_constructors, deprecated_member_use
 
+import 'package:etiquette_app/business_etiquette.dart';
+import 'package:etiquette_app/clothes_etiquette.dart';
+import 'package:etiquette_app/food_etiquette.dart';
+import 'package:etiquette_app/social_etiquette.dart';
 import 'package:flutter/material.dart';
 
+import 'social_etiquette.dart';
 void main() {
   runApp(MyEtiquetteApp());
 }
@@ -108,9 +113,10 @@ class HomePage extends StatelessWidget {
           buildCategoryItem(
             context,
             imageUrl: 'https://via.placeholder.com/150',
-            title: 'Sosyal Etiket',
+            title: 'Sosyal Ortamlar - Genel Görgü Kuralları',
             description: 'Toplumsal İlişkilerde Davranış Kuralları',
             backgroundColor: categoryGradient,
+            page: SocialEtiquettePage(),
           ),
           const SizedBox(height: 16.0),
           buildCategoryItem(
@@ -119,14 +125,16 @@ class HomePage extends StatelessWidget {
             title: 'İş Etiği',
             description: 'İş Ortamında Davranış ve Etik Kuralları',
             backgroundColor: categoryGradient,
+            page: BusinessEtiquettePage(),
           ),
           const SizedBox(height: 16.0),
           buildCategoryItem(
             context,
             imageUrl: 'https://via.placeholder.com/150',
-            title: 'Dijital Etiket',
+            title: 'Yeme - İçme Kuralları',
             description: 'İnternet ve Dijital Ortam Etik Kuralları',
             backgroundColor: categoryGradient,
+            page: FoodEtiquettePage(),
           ),
           const SizedBox(height: 16.0),
           buildCategoryItem(
@@ -135,6 +143,7 @@ class HomePage extends StatelessWidget {
             title: 'Giyim Kuralları',
             description: 'Farklı Ortamlarda Giyim Etiketi',
             backgroundColor: categoryGradient,
+            page: ClothesEtiquettePage(),
           ),
         ],
       ),
@@ -145,9 +154,13 @@ class HomePage extends StatelessWidget {
       {required String imageUrl,
       required String title,
       required String description,
-      required LinearGradient backgroundColor}) {
+      required LinearGradient backgroundColor,
+      required Widget page}) { //nurg
     return GestureDetector(
       onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context)=> page),);
         // Kategoriye tıklandığında yapılacak işlemler buraya yazılabilir
         // Örneğin, ilgili kategori sayfasına yönlendirme gibi.
       },
@@ -183,7 +196,7 @@ class HomePage extends StatelessWidget {
                       title,
                       style: Theme.of(context)
                           .textTheme
-                          .headline6
+                          .headlineLarge
                           ?.copyWith(color: Colors.white),
                     ),
                     const SizedBox(height: 8.0),
@@ -191,7 +204,7 @@ class HomePage extends StatelessWidget {
                       description,
                       style: Theme.of(context)
                           .textTheme
-                          .subtitle1
+                          .titleSmall
                           ?.copyWith(color: Colors.white70),
                     ),
                   ],
