@@ -99,3 +99,53 @@ Sprint Retrospective
 
 •	Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı.
 
+
+### Sprint 2 Notları
+
+#### Sprint Notları
+- **Sprint içinde tamamlanması tahmin edilen puan:** 150 Puan
+
+#### Puan Tamamlama Mantığı
+Sprint boyunca tamamlanacak her bir görev, zorluk ve iş yüküne göre belirli bir puan değerine sahiptir. Sprintin sonunda, tamamlanan görevlerin toplam puanı, sprint hedefi olan 150 puana ulaşmayı amaçlar. Puan tamamlama mantığı, sprint boyunca yapılan işlerin ölçülebilir ve takip edilebilir olmasını sağlar.
+
+#### Daily Scrum
+Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği JPEG veya Word olarak Readme'de tarafımızdan paylaşılmaktadır:
+- **Daily Scrum Chats:** ![IMG_4237](https://github.com/user-attachments/assets/ce0fdc10-0c06-4fac-8333-5293078b9e24)
+![IMG_4236](https://github.com/user-attachments/assets/72ceb32f-8f1a-45cb-a609-82ba522ca5b7)
+
+
+#### Sprint Board Screenshotları
+Sprint board durumunu yansıtan ekran görüntüleri aşağıda sunulmuştur:
+- **Backlog:** <img width="1440" alt="Ekran Resmi 2024-07-20 22 30 58" src="https://github.com/user-attachments/assets/2584ba84-3e47-40a2-8c78-2019a8083f31">
+
+
+#### Ürün Durumu
+Ürünün mevcut durumunu gösteren ekran görüntüleri:
+- **Ekran Görüntüleri:** 
+ ![WhatsApp Image 2024-07-19 at 17 52 32](https://github.com/user-attachments/assets/ece0f0ba-c25b-46bb-bc3e-c98023502c44)
+![WhatsApp Image 2024-07-17 at 20 44 31](https://github.com/user-attachments/assets/134a9663-ecc4-4f39-bb84-0d6589a65e6b)
+![WhatsApp Image 2024-07-17 at 20 44 31-3](https://github.com/user-attachments/assets/7adafa99-bd10-4560-98cd-f40b5c4bda27)
+![WhatsApp Image 2024-07-17 at 20 44 31-2](https://github.com/user-attachments/assets/b117341a-8801-4d7f-9d7c-4b647da31f50)
+![WhatsApp Image 2024-07-17 at 20 44 30](https://github.com/user-attachments/assets/b616f539-0a67-4afe-99ca-5c36f3daf987)
+
+
+
+#### Sprint Review
+Sprint Review toplantısında alınan kararlar:
+- Kullanıcıların ilerleyeceği sayfalar katmanlandırılmış, başlıklar halinde kodlanmıştır. İlerleyen aşamada dosyalamanın nasıl yapılacağına karar verilmiştir.
+- Uygulama logosu için konuşulmuş ve görev dağılımları yapılmıştır.
+- İleriki aşamaların görev dağılımı yapılmıştır.
+
+Sprint Review katılımcıları:
+- Nursima Tek
+- Nurefşan Dolaş
+- Nurgül Ayten
+- Mehmet Rıfat Demireller
+
+#### Sprint Retrospective
+Sprint Retrospective toplantısında yapılan değerlendirmeler:
+- Takım üyelerinin gelecek toplantılarda daha aktif şekilde fikir belirtmesi gerekliliğine vurgu yapılmıştır.
+
+
+
+
