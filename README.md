@@ -122,7 +122,6 @@ Sprint board durumunu yansıtan ekran görüntüleri aşağıda sunulmuştur:
 #### Ürün Durumu
 Ürünün mevcut durumunu gösteren ekran görüntüleri:
 - **Ekran Görüntüleri:** 
- ![WhatsApp Image 2024-07-19 at 17 52 32](https://github.com/user-attachments/assets/ece0f0ba-c25b-46bb-bc3e-c98023502c44)
 ![WhatsApp Image 2024-07-17 at 20 44 31](https://github.com/user-attachments/assets/134a9663-ecc4-4f39-bb84-0d6589a65e6b)
 ![WhatsApp Image 2024-07-17 at 20 44 31-3](https://github.com/user-attachments/assets/7adafa99-bd10-4560-98cd-f40b5c4bda27)
 ![WhatsApp Image 2024-07-17 at 20 44 31-2](https://github.com/user-attachments/assets/b117341a-8801-4d7f-9d7c-4b647da31f50)
