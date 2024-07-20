@@ -103,6 +103,10 @@ Sprint Retrospective
 ### Sprint 2 Notları
 
 #### Sprint Notları
+- Yapılacak işlerin görev dağılımına karar verilmiştir.
+- Yapılan işlerin üstünden geçilip herkesin fikri alınmıştır.
+- Fikir birliğiyle ilerlenip katılımcıların gidişat konusunda onayı alınmıştır.
+  
 - **Sprint içinde tamamlanması tahmin edilen puan:** 150 Puan
 
 #### Puan Tamamlama Mantığı
