@@ -6,7 +6,6 @@ import 'package:etiquette_app/food_etiquette.dart';
 import 'package:etiquette_app/social_etiquette.dart';
 import 'package:flutter/material.dart';
 
-import 'social_etiquette.dart';
 void main() {
   runApp(MyEtiquetteApp());
 }
@@ -40,7 +39,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(200.0),
+        preferredSize: const Size.fromHeight(150.0),
         child: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
@@ -59,7 +58,7 @@ class HomePage extends StatelessWidget {
             ),
             child: Padding(
               padding:
-                  const EdgeInsets.only(top: 60.0, left: 20.0, right: 20.0),
+                  const EdgeInsets.only(top: 80.0, left: 20.0, right: 20.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -81,24 +80,6 @@ class HomePage extends StatelessWidget {
                           color: Color.fromARGB(150, 163, 163, 163),
                         ),
                       ],
-                    ),
-                  ),
-                  const SizedBox(height: 6),
-                  const SizedBox(height: 20),
-                  Container(
-                    height: 50,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(25),
-                    ),
-                    child: const TextField(
-                      decoration: InputDecoration(
-                        hintText: 'Ara...',
-                        border: InputBorder.none,
-                        contentPadding:
-                            EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-                        suffixIcon: Icon(Icons.search, color: Colors.grey),
-                      ),
                     ),
                   ),
                 ],
@@ -155,12 +136,14 @@ class HomePage extends StatelessWidget {
       required String title,
       required String description,
       required LinearGradient backgroundColor,
-      required Widget page}) { //nurg
+      required Widget page}) {
+    //nurg
     return GestureDetector(
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(builder: (context)=> page),);
+          MaterialPageRoute(builder: (context) => page),
+        );
         // Kategoriye tıklandığında yapılacak işlemler buraya yazılabilir
         // Örneğin, ilgili kategori sayfasına yönlendirme gibi.
       },
