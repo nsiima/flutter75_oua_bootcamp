@@ -1,5 +1,5 @@
 name: etiquette_app
-description: "A new Flutter project."
+description: "Görgü Kuralları"
 
 publish_to: 'none'
 
@@ -12,11 +12,13 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.2.0+3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^4.0.0
 
 flutter_icons:
   android: true
@@ -27,3 +29,53 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+    - assets/genel1.png
+    - assets/genel2.png
+    - assets/genel3.png
+    - assets/genel4.png
+    - assets/genel5.png
+    - assets/genel6.png
+    - assets/genel7.png
+    - assets/genel8.png
+    - assets/genel9.png
+    - assets/genel10.png
+    - assets/genel11.png
+    - assets/genel12.png
+    - assets/genel13.png
+    - assets/genel14.png
+    - assets/genel15.png
+    - assets/genel16.png
+    - assets/genel17.png
+    - assets/giyim1.1.png
+    - assets/giyim1.2.png
+    - assets/giyim2.1.png
+    - assets/giyim2.2.png
+    - assets/giyim3.1.png
+    - assets/giyim3.2.png
+    - assets/giyim4.1.png
+    - assets/giyim4.2.png
+    - assets/giyim5.1.png
+    - assets/giyim5.2.png
+    - assets/giyim6.1.png
+    - assets/giyim6.2.png
+    - assets/giyim7.1.png
+    - assets/giyim7.2.png
+    - assets/is1.png
+    - assets/is2.png
+    - assets/is3.png
+    - assets/is4.png
+    - assets/is5.png
+    - assets/is6.png
+    - assets/is7.png
+    - assets/is8.png
+    - assets/is9.png
+    - assets/is10.png
+    - assets/is11.png
+    - assets/yemeicme1.jpg
+    - assets/yemeicme2.jpg
+    - assets/yemeicme3.jpg
+    - assets/yemeicme4.jpg
+    - assets/yemeicme5.png
+    - assets/yemeicme6.png
+    - assets/yemeicme7.png
+    - assets/yemeicme8.jpg

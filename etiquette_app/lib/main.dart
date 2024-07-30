@@ -93,7 +93,7 @@ class HomePage extends StatelessWidget {
         children: [
           buildCategoryItem(
             context,
-            imageUrl: 'https://via.placeholder.com/150',
+            imageUrl: 'assets/genel1.png',
             title: 'Sosyal Ortamlar - Genel Görgü Kuralları',
             description: 'Toplumsal İlişkilerde Davranış Kuralları',
             backgroundColor: categoryGradient,
@@ -102,8 +102,8 @@ class HomePage extends StatelessWidget {
           const SizedBox(height: 16.0),
           buildCategoryItem(
             context,
-            imageUrl: 'https://via.placeholder.com/150',
-            title: 'İş Etiği',
+            imageUrl: 'assets/is1.png',
+            title: 'İş Ortamları',
             description: 'İş Ortamında Davranış ve Etik Kuralları',
             backgroundColor: categoryGradient,
             page: BusinessEtiquettePage(),
@@ -111,18 +111,18 @@ class HomePage extends StatelessWidget {
           const SizedBox(height: 16.0),
           buildCategoryItem(
             context,
-            imageUrl: 'https://via.placeholder.com/150',
+            imageUrl: 'assets/yemeicme1.jpg',
             title: 'Yeme - İçme Kuralları',
-            description: 'İnternet ve Dijital Ortam Etik Kuralları',
+            description: 'Sofrada Uyulması Gereken Nezaket ve Görgü Kuralları',
             backgroundColor: categoryGradient,
             page: FoodEtiquettePage(),
           ),
           const SizedBox(height: 16.0),
           buildCategoryItem(
             context,
-            imageUrl: 'https://via.placeholder.com/150',
+            imageUrl: 'assets/giyim1.1.png',
             title: 'Giyim Kuralları',
-            description: 'Farklı Ortamlarda Giyim Etiketi',
+            description: 'Farklı Ortamlarda Giyim Kuralları',
             backgroundColor: categoryGradient,
             page: ClothesEtiquettePage(),
           ),
@@ -137,15 +137,12 @@ class HomePage extends StatelessWidget {
       required String description,
       required LinearGradient backgroundColor,
       required Widget page}) {
-    //nurg
     return GestureDetector(
       onTap: () {
         Navigator.push(
           context,
           MaterialPageRoute(builder: (context) => page),
         );
-        // Kategoriye tıklandığında yapılacak işlemler buraya yazılabilir
-        // Örneğin, ilgili kategori sayfasına yönlendirme gibi.
       },
       child: Card(
         elevation: 4.0,
@@ -163,7 +160,7 @@ class HomePage extends StatelessWidget {
               ClipRRect(
                 borderRadius:
                     const BorderRadius.vertical(top: Radius.circular(15)),
-                child: Image.network(
+                child: Image.asset(
                   imageUrl,
                   width: double.infinity,
                   height: 150,
