@@ -151,4 +151,51 @@ Sprint Retrospective toplantısında yapılan değerlendirmeler:
 
 
 
+### Sprint 3 Notları
+
+#### Sprint Notları
+- Yapılacak işlerin görev dağılımına karar verilmiştir.
+- Yapılan işlerin üstünden geçilip herkesin fikri alınmıştır.
+- Fikir birliğiyle ilerlenip katılımcıların gidişat konusunda onayı alınmıştır.
+- Uygulamanın son kısmı için son planlamalar gerçekleştirilmiştir.
+  
+- **Sprint içinde tamamlanması tahmin edilen puan:** 150 Puan
+
+#### Puan Tamamlama Mantığı
+Sprint boyunca tamamlanacak her bir görev, zorluk ve iş yüküne göre belirli bir puan değerine sahiptir. Sprintin sonunda, tamamlanan görevlerin toplam puanı, sprint hedefi olan 150 puana ulaşmayı amaçlar. Puan tamamlama mantığı, sprint boyunca yapılan işlerin ölçülebilir ve takip edilebilir olmasını sağlar.
+
+#### Daily Scrum
+Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği JPEG veya Word olarak Readme'de tarafımızdan paylaşılmaktadır:
+- **Daily Scrum Chats:** ![IMG_5117](https://github.com/user-attachments/assets/c8997005-ca37-4ab2-8e86-2b3440fb1e54)
+![IMG_5116](https://github.com/user-attachments/assets/e9b4097a-4706-43e0-af1a-c3ee60424c2f)
+
+
+#### Sprint Board Screenshotları
+Sprint board durumunu yansıtan ekran görüntüleri aşağıda sunulmuştur:
+- **Backlog:** 
+<img width="1440" alt="Ekran Resmi 2024-08-02 19 52 22" src="https://github.com/user-attachments/assets/cd4fb999-8105-4023-b67a-c88dbe798d66">
+
+#### Ürün Durumu
+Ürünün mevcut durumunu gösteren ekran görüntüleri:
+- **Ekran Görüntüleri:** 
+  - ![PHOTO-2024-07-30-13-31-26](https://github.com/user-attachments/assets/5fb56005-e72b-49ab-929f-ef10c5afd454)
+- ![PHOTO-2024-07-30-13-31-26 2](https://github.com/user-attachments/assets/787fdf77-287f-43ba-81ec-b7d61ca3690f)
+- ![PHOTO-2024-07-30-13-31-25](https://github.com/user-attachments/assets/7289a2e6-c216-40d6-a944-184d2d0b7fa6)
+
+
+#### Sprint Review
+Sprint Review toplantısında alınan kararlar:
+- Kullanıcı temel sayfaların arayüzleri, algoritmaları kodlanmış, Firebase servislerine bağlantıları yapılmış ve eksiklikleri değerlendirilmiştir. Eksikler tamamlanmıştır.
+
+Sprint Review katılımcıları:
+- Nursima Tek
+- Nurefşan Dolaş
+- Nurgül Ayten
+- Mehmet Rıfat Demireller
+
+#### Sprint Retrospective
+Sprint Retrospective toplantısında yapılan değerlendirmeler:
+- Takım üyelerinin iletişim konusunda kendini geliştirdiği bir sorun olduğu haşde hemen bunu grupla paylaştığı görülmüştür.
+- Herkes üstüne düşen sorumlulukları yerine getirdiği için proje sorunsuz tamamlanmıştır.
+
 
